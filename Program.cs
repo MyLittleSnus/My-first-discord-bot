@@ -16,7 +16,7 @@ string token = "";
 ulong channelID = 0;
 
 IConfiguration configurationBuilder = new ConfigurationBuilder()
-        .AddJsonFile("/Users/mihailtkacenko/Projects/MyFirstBot/appsettings.json", optional: true, reloadOnChange: true)
+        .AddJsonFile("----", optional: true, reloadOnChange: true)
         .Build();
 
 var recovery = new BotRecovery(configurationBuilder);
